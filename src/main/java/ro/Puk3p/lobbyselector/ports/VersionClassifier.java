@@ -1,4 +1,7 @@
 package ro.Puk3p.lobbyselector.ports;
 
-public class VersionClassifier {
+import ro.Puk3p.lobbyselector.domain.VersionDecision;
+
+public interface VersionClassifier {
+    VersionDecision classify(int protocolVersion);
 }

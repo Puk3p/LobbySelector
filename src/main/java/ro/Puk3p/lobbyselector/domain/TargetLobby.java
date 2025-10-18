@@ -1,4 +1,6 @@
 package ro.Puk3p.lobbyselector.domain;
 
-public class TargetLobby {
+public enum TargetLobby {
+    LEGACY,
+    MODERN
 }

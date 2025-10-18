@@ -1,4 +1,7 @@
 package ro.Puk3p.lobbyselector.ports;
 
-public class LobbyResolver {
+import ro.Puk3p.lobbyselector.domain.TargetLobby;
+
+public interface LobbyResolver {
+    String resolveServerName(TargetLobby lobby);
 }

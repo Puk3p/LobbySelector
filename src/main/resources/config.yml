@@ -1,0 +1,10 @@
+legacyLobby: "lobby_18"     # pentru 1.8
+modernLobby: "lobby_116"    # pentru 1.16+
+
+# 735 = protocol pentru 1.16 Orice >= 735 va fi modern.
+modernMinProtocol: 735
+
+# Daca target-ul calculat nu e disponibil, incearcă celalalt lobby!!!!!!!
+fallbackToOther: true
+
+kickMessage: "&cNu s-a putut găsi un lobby disponibil. Încearcă din nou!"
